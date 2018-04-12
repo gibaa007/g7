@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Linear Gradient"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="G7"
+        android:textColor="#000"
+        android:textSize="150dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_height="wrap_content"
+        android:text="Change" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Normal" />
+
+        <RadioButton
+            android:id="@+id/rb_emboss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emboss" />
+
+        <RadioButton
+            android:id="@+id/rb_deboss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deboss" />
+    </RadioGroup>
+</LinearLayout>

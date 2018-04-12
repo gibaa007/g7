@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_share"
+                android:title="Google Plus" />
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook" />
+            <item
+                android:icon="@drawable/ic_menu_share"
+                android:title="Instagram" />
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="Call" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/gradientText"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Gradient Text" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Image Blur" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Slideshow" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tools" />
+            <item
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Import" />
+
+            <item
+                android:id="@+id/nav_gp"
+                android:icon="@drawable/ic_menu_share"
+                android:title="H4CK3R" />
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Encryption" />
+            <item
+                android:id="@+id/nav_ig"
+                android:icon="@drawable/ic_menu_share"
+                android:title="FlashLight" />
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gradient" />
+        </menu>
+    </item>
+
+</menu>
